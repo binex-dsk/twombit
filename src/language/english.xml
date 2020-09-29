@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lang>
+   <content>
+      <id>ok</id>
+      <body>Ok</body>
+   </content>
+   <content>
+      <id>cancel</id>
+      <body>Cancel</body>
+   </content>
+   <content>
+      <id>cfg_load</id>
+      <body>couldn't find a config file, switching to standard setup</body>
+   </content>
+   <content>
+      <id>cfg_save</id>
+      <body>couldn't save config file</body>
+   </content>
+   <content>
+      <id>cheat_save</id>
+      <body>couldn't save cheat list</body>
+   </content>
+   <content>
+      <id>file</id>
+      <body>File</body>
+   </content>
+   <content>
+      <id>video</id>
+      <body>Video</body>
+   </content>
+   <content>
+      <id>config</id>
+      <body>Config</body>
+   </content>
+   <content>
+      <id>help</id>
+      <body>Help</body>
+   </content>
+   <content>
+      <id>load</id>
+      <body>Load</body>
+   </content>   
+   <content>
+      <id>unload</id>
+      <body>Unload</body>
+   </content>  
+   <content>
+      <id>reset</id>
+      <body>Reset</body>
+   </content>  
+   <content>
+      <id>power</id>
+      <body>Power</body>
+   </content>
+   <content>
+      <id>load_state</id>
+      <body>Load State (F8)</body>
+   </content>
+   <content>
+      <id>save_state</id>
+      <body>Save State (F5)</body>
+   </content>
+   <content>
+      <id>change_slot</id>
+      <body>Change Slot (F6-F7)</body>
+   </content>
+   <content>
+      <id>cheat_codes</id>
+      <body>Cheat Codes</body>
+   </content>
+   <content>
+      <id>recent_roms</id>
+      <body>Recent Roms</body>
+   </content>
+   <content>
+      <id>exit</id>
+      <body>Exit</body>
+   </content>
+   <content>
+      <id>lock</id>
+      <body>lock</body>
+   </content>
+   <content>
+      <id>clear</id>
+      <body>clear</body>
+   </content>
+   <content>
+      <id>clear_port</id>
+      <body>Do you really want to clear the input map?</body>
+   </content>
+   <content>
+      <id>window_size</id>
+      <body>Window Size</body>
+   </content>
+   <content>
+      <id>fullscreen_resolution</id>
+      <body>Fullscreen resolution</body>
+   </content>
+  <content>
+    <id>fullscreen</id>
+    <body>Fullscreen</body>
+  </content>
+   <content>
+      <id>region</id>
+      <body>Region</body>
+   </content>
+   <content>
+      <id>video_filter</id>
+      <body>Video Filter</body>
+   </content>
+   <content>
+      <id>options</id>
+      <body>Options</body>
+   </content>
+   <content>
+      <id>adjust_video</id>
+      <body>Video</body>
+   </content>
+   <content>
+      <id>adjust_audio</id>
+      <body>Audio</body>
+   </content>
+   <content>
+      <id>input</id>
+      <body>Input</body>
+   </content>
+   <content>
+      <id>set_speed</id>
+      <body>Speed</body>
+   </content>
+  <content>
+    <id>vsync</id>
+    <body>Vsync</body>
+  </content>
+   <content>
+      <id>show_fps</id>
+      <body>Show FPS</body>
+   </content>
+   <content>
+      <id>audio_active</id>
+      <body>Audio active</body>
+   </content>
+   <content>
+      <id>controller_port_1</id>
+      <body>Controller Port 1</body>
+   </content>
+   <content>
+      <id>controller_port_2</id>
+      <body>Controller Port 2</body>
+   </content>
+   <content>
+      <id>about</id>
+      <body>About</body>
+   </content>
+   <content>
+      <id>clear_recent</id>
+      <body>Clear recent file list?</body>
+   </content>
+   <content>
+      <id>config</id>
+      <body>configurations</body>
+   </content>
+   <content>
+      <id>rom_path</id>
+      <body>Rom path:</body>
+   </content>
+   <content>
+      <id>sram_path</id>
+      <body>Sram path:</body>
+   </content>
+   <content>
+      <id>cheat_path</id>
+      <body>Cheat path:</body>
+   </content>
+   <content>
+      <id>state_path</id>
+      <body>Savestate path:</body>
+   </content>
+  <content>
+    <id>bios_jp</id>
+    <body>japanese/korean bios:</body>
+  </content>
+  <content>
+    <id>bios_us</id>
+    <body>usa/europe bios:</body>
+  </content>
+   <content>
+      <id>no_bios</id>
+      <body>&lt;no bios file selected&gt;</body>
+   </content>
+   <content>
+      <id>select</id>
+      <body>select ...</body>
+   </content>
+   <content>
+      <id>default</id>
+      <body>default</body>
+   </content>
+   <content>
+      <id>language</id>
+      <body>Language:</body>
+   </content>
+   <content>
+      <id>paths</id>
+      <body>Paths</body>
+   </content>
+   <content>
+      <id>brightness</id>
+      <body>Brightness:</body>
+   </content>
+   <content>
+      <id>contrast</id>
+      <body>Contrast:</body>
+   </content>
+   <content>
+      <id>gamma</id>
+      <body>Gamma:</body>
+   </content>
+   <content>
+      <id>load_error</id>
+      <body>could not open file:</body>
+   </content>
+   <content>
+      <id>invalid_bios</id>
+      <body>invalid Bios</body>
+   </content>
+   <content>
+      <id>none</id>
+      <body>none</body>
+   </content>
+   <content>
+      <id>up</id>
+      <body>up</body>
+   </content>
+   <content>
+      <id>down</id>
+      <body>down</body>
+   </content>
+   <content>
+      <id>right</id>
+      <body>right</body>
+   </content>
+   <content>
+      <id>left</id>
+      <body>left</body>
+   </content>
+   <content>
+      <id>x-axis</id>
+      <body>X-Axis</body>
+   </content>
+   <content>
+      <id>y-axis</id>
+      <body>Y-Axis</body>
+   </content>
+   <content>
+      <id>z-axis</id>
+      <body>Z-Axis</body>
+   </content>
+   <content>
+      <id>press_key</id>
+      <body>Press key or button for</body>
+   </content>
+   <content>
+      <id>move_mouse</id>
+      <body>Move mouse or analog stick for</body>
+   </content>
+   <content>
+      <id>empty</id>
+      <body>empty</body>
+   </content>
+   <content>
+      <id>device</id>
+      <body>Device</body>
+   </content>
+   <content>
+      <id>map</id>
+      <body>Map</body>
+   </content>
+   <content>
+      <id>register_input</id>
+      <body>Double Click a Button to configure</body>
+   </content>
+   <content>
+      <id>din_error</id>
+      <body>Could not create Direct Input. install or reinstall directx 9!</body>
+   </content>
+   <content>
+      <id>d3d_error</id>
+      <body>Could not create D3D 9 object! install or reinstall directx 9!</body>
+   </content>
+  <content>
+    <id>dsound_error</id>
+    <body>Could not create Direct Sound object! install or reinstall directx 9!</body>
+  </content>
+  <content>
+     <id>opengl_error</id>
+     <body>Could not create opengl! install or reinstall opengl</body>
+  </content>
+  <content>
+     <id>openal_error</id>
+     <body>Could not create openal! install or reinstall openal</body>
+  </content>
+  <content>
+     <id>input_error</id>
+     <body>input system caused an error</body>
+  </content>
+   <content>
+      <id>cheat_delete_code</id>
+      <body>delete code</body>
+   </content>
+   <content>
+      <id>cheat_add_code</id>
+      <body>add code</body>
+   </content>
+   <content>
+      <id>cheat_edit_code</id>
+      <body>edit code</body>
+   </content>
+   <content>
+      <id>cheat_active_code</id>
+      <body>on / off</body>
+   </content>
+   <content>
+      <id>cheat_description</id>
+      <body>description</body>
+   </content>
+   <content>
+      <id>cheat_active</id>
+      <body>active</body>
+   </content>
+   <content>
+      <id>cheat_code</id>
+      <body>code</body>
+   </content>
+   <content>
+      <id>yes</id>
+      <body>yes</body>
+   </content>
+   <content>
+      <id>no</id>
+      <body>no</body>
+   </content>
+   <content>
+      <id>cheat_invalid</id>
+      <body>Thats not a valid cheat code.</body>
+   </content>
+   <content>
+      <id>cheat_limit</id>
+      <body>delete old cheats to create new ones.</body>
+   </content>
+   <content>
+      <id>cheat_select</id>
+      <body>there is no cheat selected.</body>
+   </content>
+   <content>
+      <id>slot_changed</id>
+      <body>select slot </body>
+   </content>
+   <content>
+      <id>state_loaded</id>
+      <body>savestate loaded of slot </body>
+   </content>
+   <content>
+      <id>state_saved</id>
+      <body>savestate generated in slot </body>
+   </content>
+   <content>
+      <id>state_error_load</id>
+      <body>couldn't be loaded of slot </body>
+   </content>
+   <content>
+      <id>state_error_save</id>
+      <body>couldn't be saved in slot </body>
+   </content>
+   <content>
+      <id>state_incompatible</id>
+      <body>savestate incompatible in slot </body>
+   </content>
+  <content>
+    <id>about_desc</id>
+    <body>
+TwoMbit (C) PiCiJi
+licence: GPLv3
+web: https://sourceforge.net/projects/twombit/
+
+mention the following people, all of whom have helped with inspiration and information
+
+- blargg (ntsc filter, blip buffer)
+- byuu (bsnes for inspiration)
+- Charles MacDonald (docs)
+- smspower.org
+    </body>
+  </content>
+  <content>
+    <id>sms_unit</id>
+    <body>Sms Unit:</body>
+  </content>
+  <content>
+    <id>use_bios</id>
+    <body>use bios</body>
+  </content>
+  <content>
+    <id>use_fm</id>
+    <body>use FM Sound</body>
+  </content>
+  <content>
+    <id>volume</id>
+    <body>Volume:</body>
+  </content>
+  <content>
+    <id>frequency_correction</id>
+    <body>Frequency correction:</body>
+  </content>
+  <content>
+    <id>glasses</id>
+    <body>3D glasses</body>
+  </content>
+  <content>
+    <id>use_glasses</id>
+    <body>3D games without glasses</body>
+  </content>
+  <content>
+    <id>aspect_ratio</id>
+    <body>Correct Aspect Ratio</body>
+  </content>
+  <content>
+    <id>border</id>
+    <body>border</body>
+  </content>
+  <content>
+    <id>disable_border</id>
+    <body>disable frame border</body>
+  </content>
+</lang>

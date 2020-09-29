@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="about.png">about.png</file>
+        <file alias="arrow.png">arrow.png</file>
+        <file alias="audio.png">audio.png</file>
+        <file alias="change_slot.png">change_slot.png</file>
+        <file alias="cheat.png">cheat.png</file>
+        <file alias="check.png">check.png</file>
+        <file alias="clear.png">clear.png</file>
+        <file alias="exit.png">exit.png</file>
+        <file alias="filter.png">filter.png</file>
+        <file alias="folder.png">folder.png</file>
+        <file alias="joypad.png">joypad.png</file>
+        <file alias="load.png">load.png</file>
+        <file alias="load_state.png">load_state.png</file>
+        <file alias="options.png">options.png</file>
+        <file alias="power.png">power.png</file>
+        <file alias="recent.png">recent.png</file>
+        <file alias="region.png">region.png</file>
+        <file alias="reset.png">reset.png</file>
+        <file alias="save_state.png">save_state.png</file>
+        <file alias="screen.png">screen.png</file>
+        <file alias="speed.png">speed.png</file>
+        <file alias="sun.png">sun.png</file>
+        <file alias="tmb.ico">tmb.ico</file>
+        <file alias="uncheck.png">uncheck.png</file>
+        <file alias="unload.png">unload.png</file>
+    </qresource>
+</RCC>

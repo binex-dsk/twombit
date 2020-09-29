@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lang>
+   <content>
+      <id>ok</id>
+      <body>Ok</body>    
+   </content>
+   <content>
+      <id>cancel</id>
+      <body>Abbrechen</body>
+   </content>
+   <content>
+      <id>cfg_load</id>
+      <body>Die Konfigurationsdatei konnte nicht geladen werden...initialisiere Standardwerte</body>
+   </content>
+   <content>
+      <id>cfg_save</id>
+      <body>Es war nicht möglich die Konfigurationsdatei zu speichern</body>
+   </content>
+   <content>
+      <id>cheat_save</id>
+      <body>Es war nicht möglich die Cheat Liste zu speichern</body>
+   </content>
+   <content>
+      <id>file</id>
+      <body>Datei</body>
+   </content>
+   <content>
+      <id>video</id>
+      <body>Video</body>
+   </content>
+   <content>
+      <id>config</id>
+      <body>Einstellungen</body>
+   </content>
+   <content>
+      <id>help</id>
+      <body>Hilfe</body>
+   </content>
+   <content>
+      <id>load</id>
+      <body>Laden</body>
+   </content>
+   <content>
+      <id>unload</id>
+      <body>Schließen</body>
+   </content>
+   <content>
+      <id>reset</id>
+      <body>Reset</body>
+   </content>
+   <content>
+      <id>power</id>
+      <body>Power</body>
+   </content>
+   <content>
+      <id>load_state</id>
+      <body>Spielstand laden (F8)</body>
+   </content>
+   <content>
+      <id>save_state</id>
+      <body>Spielstand speichern (F5)</body>
+   </content>
+   <content>
+      <id>change_slot</id>
+      <body>Spielstand wechseln (F6-F7)</body>
+   </content>
+   <content>
+      <id>cheat_codes</id>
+      <body>Cheat Codes</body>
+   </content>
+   <content>
+      <id>recent_roms</id>
+      <body>Letzte Roms</body>
+   </content>
+   <content>
+      <id>exit</id>
+      <body>Beenden</body>
+   </content>
+   <content>
+      <id>lock</id>
+      <body>speeren</body>
+   </content>
+   <content>
+      <id>clear</id>
+      <body>leeren</body>
+   </content>
+   <content>
+      <id>clear_port</id>
+      <body>Willst du wirklich die Belegung für dieses Eingabegerät verwerfen?</body>
+   </content>
+   <content>
+      <id>window_size</id>
+      <body>Fenster Größe</body>
+   </content>
+   <content>
+      <id>fullscreen_resolution</id>
+      <body>Vollbild Auflösung</body>
+   </content>
+  <content>
+    <id>fullscreen</id>
+    <body>Vollbild</body>
+  </content>
+   <content>
+      <id>region</id>
+      <body>Region</body>
+   </content>
+   <content>
+      <id>video_filter</id>
+      <body>Video Filter</body>
+   </content>
+   <content>
+      <id>options</id>
+      <body>Optionen</body>
+   </content>
+   <content>
+      <id>adjust_video</id>
+      <body>Video</body>
+   </content>
+   <content>
+      <id>adjust_audio</id>
+      <body>Audio</body>
+   </content>
+   <content>
+      <id>input</id>
+      <body>Eingabe</body>
+   </content>
+   <content>
+      <id>set_speed</id>
+      <body>Geschwindigkeit</body>
+   </content>
+  <content>
+    <id>vsync</id>
+    <body>Vsync</body>
+  </content>
+   <content>
+      <id>show_fps</id>
+      <body>FPS anzeigen</body>
+   </content>
+   <content>
+      <id>audio_active</id>
+      <body>Audio aktiv</body>
+   </content>
+   <content>
+      <id>controller_port_1</id>
+      <body>Controller Port 1</body>
+   </content>
+   <content>
+      <id>controller_port_2</id>
+      <body>Controller Port 2</body>
+   </content>
+   <content>
+      <id>about</id>
+      <body>Über</body>
+   </content>
+   <content>
+      <id>clear_recent</id>
+      <body>Dateiliste löschen?</body>
+   </content>
+   <content>
+      <id>config</id>
+      <body>Einstellungen</body>
+   </content>
+   <content>
+      <id>rom_path</id>
+      <body>Rom Pfad:</body>
+   </content>
+   <content>
+      <id>sram_path</id>
+      <body>Sram Pfad:</body>
+   </content>
+   <content>
+      <id>cheat_path</id>
+      <body>Cheat Pfad:</body>
+   </content>
+   <content>
+      <id>state_path</id>
+      <body>Savestate Pfad:</body>
+   </content>
+   <content>
+    <id>bios_jp</id>
+    <body>Bios Japan/Korea:</body>
+  </content>
+  <content>
+    <id>bios_us</id>
+    <body>Bios Usa/Europa:</body>
+  </content>
+   <content>
+      <id>no_bios</id>
+      <body>&lt;kein Bios ausgewählt&gt;</body>
+   </content>
+   <content>
+      <id>select</id>
+      <body>auswählen ...</body>
+   </content>
+   <content>
+      <id>default</id>
+      <body>standard</body>
+   </content>
+   <content>
+      <id>language</id>
+      <body>Sprache:</body>
+   </content>
+   <content>
+      <id>paths</id>
+      <body>Pfade</body>
+   </content>
+   <content>
+      <id>brightness</id>
+      <body>Helligkeit:</body>
+   </content>
+   <content>
+      <id>contrast</id>
+      <body>Kontrast:</body>
+   </content>
+   <content>
+      <id>gamma</id>
+      <body>Gamma:</body>
+   </content>
+   <content>
+      <id>load_error</id>
+      <body>Datei konnte nicht geöffnet werden.</body>
+   </content>
+   <content>
+      <id>invalid_bios</id>
+      <body>kein gültiges Bios</body>
+   </content>
+   <content>
+      <id>none</id>
+      <body>nichts</body>
+   </content>
+   <content>
+      <id>up</id>
+      <body>Oben</body>
+   </content>
+   <content>
+      <id>down</id>
+      <body>Unten</body>
+   </content>
+   <content>
+      <id>right</id>
+      <body>Rechts</body>
+   </content>
+   <content>
+      <id>left</id>
+      <body>Links</body>
+   </content>
+   <content>
+      <id>x-axis</id>
+      <body>X-Achse</body>
+   </content>
+   <content>
+      <id>y-axis</id>
+      <body>Y-Achse</body>
+   </content>
+   <content>
+      <id>z-axis</id>
+      <body>Z-Achse</body>
+   </content>
+   <content>
+      <id>press_key</id>
+      <body>Taste oder button für</body>
+   </content>
+   <content>
+      <id>move_mouse</id>
+      <body>Bewege Maus oder Analog Stick für</body>
+   </content>
+   <content>
+      <id>empty</id>
+      <body>leeren</body>
+   </content>
+   <content>
+      <id>device</id>
+      <body>Eingabegerät</body>
+   </content>
+   <content>
+      <id>map</id>
+      <body>Belegung</body>
+   </content>
+   <content>
+      <id>register_input</id>
+      <body>Doppel Klick auf den zu konfigurierenden button</body>
+   </content>
+   <content>
+      <id>din_error</id>
+      <body>konnte Direct Input nicht initialisieren! installiere directX</body>
+   </content>
+   <content>
+      <id>d3d_error</id>
+      <body>konnte Direct Video nicht initialisieren! installiere directX</body>
+   </content>
+  <content>
+    <id>dsound_error</id>
+    <body>konnte Direct Sound nicht initialisieren! installiere directX</body>
+  </content>
+  <content>
+     <id>opengl_error</id>
+     <body>konnte opengl nicht initialisieren! installiere opengl</body>
+  </content>
+  <content>
+     <id>openal_error</id>
+     <body>konnte openal nicht initialisieren! installiere openal</body>
+  </content>
+  <content>
+     <id>input_error</id>
+     <body>input system hat ein Fehler verursacht</body>
+  </content>
+   <content>
+      <id>cheat_delete_code</id>
+      <body>Code löschen</body>
+   </content>
+   <content>
+      <id>cheat_add_code</id>
+      <body>neuer Code</body>
+   </content>
+   <content>
+      <id>cheat_edit_code</id>
+      <body>Code ändern</body>
+   </content>
+   <content>
+      <id>cheat_active_code</id>
+      <body>An / Aus</body>
+   </content>
+   <content>
+      <id>cheat_description</id>
+      <body>Beschreibung</body>
+   </content>
+   <content>
+      <id>cheat_active</id>
+      <body>Aktiv</body>
+   </content>
+   <content>
+      <id>cheat_code</id>
+      <body>Code</body>
+   </content>
+   <content>
+      <id>yes</id>
+      <body>ja</body>
+   </content>
+   <content>
+      <id>no</id>
+      <body>nein</body>
+   </content>
+   <content>
+      <id>cheat_invalid</id>
+      <body>Dies ist kein gültiger Cheat Code</body>
+   </content>
+   <content>
+      <id>cheat_limit</id>
+      <body>Lösche alte Cheats um neue anzulegen.</body>
+   </content>
+   <content>
+      <id>cheat_select</id>
+      <body>erst Cheat auswählen.</body>
+   </content>
+   <content>
+      <id>slot_changed</id>
+      <body>waehle Slot </body>
+   </content>
+   <content>
+      <id>state_loaded</id>
+      <body>Spielstand geladen von Slot </body>
+   </content>
+   <content>
+      <id>state_saved</id>
+      <body>Spielstand gespeichert in Slot </body>
+   </content>
+   <content>
+      <id>state_error_load</id>
+      <body>Spielstand konnte nicht geladen werden von Slot </body>
+   </content>
+   <content>
+      <id>state_error_save</id>
+      <body>Spielstand konnte nicht gespeichert werden in Slot </body>
+   </content>
+   <content>
+      <id>state_incompatible</id>
+      <body>Spielstand inkompatibel in Slot </body>
+   </content>
+  <content>
+    <id>about_desc</id>
+    <body>
+TwoMbit (C) PiCiJi
+Lizenz: GPLv3
+Web: https://sourceforge.net/projects/twombit/
+
+Folgenden Personen möchte ich an dieser Stelle danken.
+
+- blargg (ntsc filter, blip buffer)
+- byuu (bsnes als Inspiration)
+- Charles MacDonald (docs)
+- smspower.org
+    </body>
+  </content>
+  <content>
+    <id>sms_unit</id>
+    <body>Sms Gerät:</body>
+  </content>
+  <content>
+    <id>use_bios</id>
+    <body>benutze Bios</body>
+  </content>
+  <content>
+    <id>use_fm</id>
+    <body>benutze FM Sound</body>
+  </content>
+  <content>
+    <id>volume</id>
+    <body>Lautstärke:</body>
+  </content>
+  <content>
+    <id>frequency_correction</id>
+    <body>Frequenz Korrektur:</body>
+  </content>
+  <content>
+    <id>glasses</id>
+    <body>3D Brille</body>
+  </content>
+  <content>
+    <id>use_glasses</id>
+    <body>3D Spiele ohne Brille</body>
+  </content>
+  <content>
+    <id>aspect_ratio</id>
+    <body>korrektes Bildformat</body>
+  </content>
+  <content>
+    <id>border</id>
+    <body>Rahmen</body>
+  </content>
+  <content>
+    <id>disable_border</id>
+    <body>Bildrahmen deaktivieren</body>
+  </content>
+ </lang>
