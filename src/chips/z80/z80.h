@@ -98,8 +98,8 @@ protected:
 	u16 opcodeUsage[1280];
 
 	static const bool parityBit[256];
-	template<bool rlc, bool adjust> u8 doRL (u8 val);
-	template<bool rrc, bool adjust> u8 doRR (u8 val);
+	template<bool rlc, char adjust> u8 doRL (u8 val);
+	template<bool rrc, char adjust> u8 doRR (u8 val);
 	template<bool arith> u8 doSL (u8 val);
 	template<bool arith> u8 doSR (u8 val);
 	template<bool _8bit, bool adc> u16 doAddBase(u16 src, u16 dest);

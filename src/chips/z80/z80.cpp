@@ -1355,25 +1355,25 @@ template<bool _8bit, bool sbc> u16 Core_z80::doSubBase(u16 src, u16 dest) {
 }
 
 
-template<bool rlc, bool adjust> u8 Core_z80::doRL (u8 val) {
+template<bool rlc, char adjust> u8 Core_z80::doRL (u8 val) {
     bool _c = reg.bit.c;
 	reg.bit.c = !! (val & 0x80);
     val <<= 1;
     val |= rlc ? (u8)reg.bit.c : (u8)_c;
 	setUndocumentedFlags(val);
 	reg.bit.h = reg.bit.n = 0;
-    if (adjust) setStandardFlags(val);
+    if (adjust != 0) setStandardFlags(val);
     return val;
 }
 
-template<bool rrc, bool adjust> u8 Core_z80::doRR (u8 val) {
+template<bool rrc, char adjust> u8 Core_z80::doRR (u8 val) {
     bool _c = reg.bit.c;
 	reg.bit.c = !! (val & 0x01);
     val >>= 1;
     val |= rrc ? u8 (reg.bit.c << 7) : u8 (_c << 7);
 	setUndocumentedFlags(val);
 	reg.bit.h = reg.bit.n = 0;
-    if (adjust) setStandardFlags(val);
+    if (adjust != 0) setStandardFlags(val);
     return val;
 }
 

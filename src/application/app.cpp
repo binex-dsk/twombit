@@ -90,7 +90,7 @@ void App::loadFromCommandLine() {
 }
 
 void App::loadConfig() {
-    if ( !config.load(App::app_dir + _CFG_FILE) ) {
+    if ( !config.load(QDir::homePath() + "/" + _CFG_FILE) ) {
         Dialog::Warn( lang.get("cfg_load") );
     }
 }
@@ -112,7 +112,7 @@ int App::Run() {
         emulator.unload();
     }
 
-    if (!config.save(app_dir + _CFG_FILE)) {
+    if (!config.save(QDir::homePath() + "/" + _CFG_FILE)) {
         Dialog::Warn(lang.get("cfg_save"));
     }
 
